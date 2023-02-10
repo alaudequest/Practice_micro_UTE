@@ -1,0 +1,10 @@
+18:17:20 **** Incremental Build of configuration Debug for project Position_PID_E1_307 ****
+make -j8 all 
+arm-none-eabi-size   Position_PID_E1_307.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15268	     36	   1820	  17124	   42e4	Position_PID_E1_307.elf
+Finished building: default.size.stdout
+ 
+
+18:17:20 Build Finished. 0 errors, 0 warnings. (took 322ms)
+
