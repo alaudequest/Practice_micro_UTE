@@ -60,8 +60,8 @@ all: main-build
 main-build: Position_PID_E1_307.elf secondary-outputs
 
 # Tool invocations
-Position_PID_E1_307.elf Position_PID_E1_307.map: $(OBJS) $(USER_OBJS) C:\Users\ADMIN\Desktop\Practice\ Micro\ in\ UTE\Position_PID_E1_307\STM32F205VCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Position_PID_E1_307.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\ADMIN\Desktop\Practice Micro in UTE\Position_PID_E1_307\STM32F205VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Position_PID_E1_307.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Position_PID_E1_307.elf Position_PID_E1_307.map: $(OBJS) $(USER_OBJS) C:\Users\LENOVO\Desktop\Practice_micro_UTE\Position_PID_E1_307\STM32F205VCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Position_PID_E1_307.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\LENOVO\Desktop\Practice_micro_UTE\Position_PID_E1_307\STM32F205VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Position_PID_E1_307.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
