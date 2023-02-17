@@ -2634,3 +2634,18 @@ java.lang.Exception: The project description file (.project) for 'Position_contr
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-02-10 22:14:00.913
 !MESSAGE Indexed 'E1_303_LED_TEST' (18 sources, 80 headers) in 1.06 sec: 4,000 declarations; 15,263 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.01%)
+!SESSION 2023-02-15 11:31:25.400 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-02-15 11:31:51.049
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-02-15 11:31:51.145
+!MESSAGE Log4j initialized with config file C:\Users\LENOVO\Desktop\Practice_micro_UTE\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-02-15 11:32:03.395
+!MESSAGE Started RMI Server, listening on port 41337

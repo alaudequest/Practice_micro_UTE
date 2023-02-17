@@ -9,6 +9,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\LENOVO\Desktop\Practice_micro_UTE"/>
 			<item value="C:\Users\ADMIN\Desktop\Practice Micro in UTE\Position_control_lab_thay_Chuong"/>
 		</list>
 	</section>

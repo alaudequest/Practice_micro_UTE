@@ -1,0 +1,21 @@
+!SESSION 2023-02-15 13:47:53.943 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-02-15 13:48:11.597
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-02-15 13:48:11.644
+!MESSAGE Log4j initialized with config file C:\Users\LENOVO\Desktop\Practice_micro_UTE\E1_303_LED_TEST\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-02-15 13:48:21.220
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-02-15 13:50:58.141
+!MESSAGE Indexed 'Position_PID_E1_307' (20 sources, 108 headers) in 3.17 sec: 9,295 declarations; 48,014 references; 2 unresolved inclusions; 29 syntax errors; 147 unresolved names (0.26%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-02-15 13:50:59.998
+!MESSAGE Indexed 'Position_control_lab_thay_Chuong' (20 sources, 107 headers) in 1.81 sec: 8,085 declarations; 28,284 references; 2 unresolved inclusions; 29 syntax errors; 147 unresolved names (0.4%)
