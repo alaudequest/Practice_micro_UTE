@@ -65,10 +65,10 @@ static void MX_TIM3_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_TIM4_Init(void);
 /* USER CODE BEGIN PFP */
-void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
-{
-	count =__HAL_TIM_GET_COUNTER(htim);
-}
+//void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
+//{
+//	count =__HAL_TIM_GET_COUNTER(htim);
+//}
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
 	if (GPIO_Pin == GPIO_PIN_4){
@@ -136,15 +136,15 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
 void setMotor(int dir , int pwmVal){
   	if (dir == -1){
-  		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_3,100-pwmVal);
-  		GPIOB -> ODR &= ~GPIO_PIN_2;
+  		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2,100-pwmVal);
+  		GPIOC -> ODR &= ~GPIO_PIN_7;
   	}
   	else if (dir == 1){
-  		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_3,100-pwmVal);
-  		GPIOB -> ODR |= GPIO_PIN_2;
+  		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2,100-pwmVal);
+  		GPIOC -> ODR |= GPIO_PIN_7;
   	}
   	else{
-  		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_3, 100);
+  		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 100);
   	}
 }
 
